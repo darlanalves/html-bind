@@ -2,9 +2,7 @@
   "compileOnSave": true,
   "compilerOptions": {
     "typeRoots": ["node_modules/@types"],
-    "types": [
-      "node"
-    ],
+    "types": ["node"],
     "baseUrl": "./",
     "outDir": "./dist",
     "sourceMap": false,
@@ -14,9 +12,9 @@
     "noUnusedParameters": true,
     "target": "es5",
     "importHelpers": true,
-    "module": "commonjs",
+    "module": "es6",
     "noEmitHelpers": true,
-    "lib": ["es2016","dom"]
+    "lib": ["es6", "es7"]
   },
   "exclude": [
     "./dist/*.ts",
